@@ -19,8 +19,9 @@ environment:
 #  * an optional default value
 #  * an optional prompt phrase used when asking for the variable.
 vars:
+  package_name:
+    type: string
   name:
     type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
+  type:
+    type: string
