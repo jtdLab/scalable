@@ -19,10 +19,10 @@ A few resources to get you started if this is your first brick template:
 [4]: https://youtu.be/G4PTjA6tpTU
 
 // TODO which files here are needed and fix em
-pubspec.yaml
-pubspec.lock
-test/
-lib/ 
+pubspec.yaml (add dependencies)
+pubspec.lock (gen from pubspec)
+test/ (add files)
+lib/ (add files)
 .idea/ (add run configs for intellij)
 
 
