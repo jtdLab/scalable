@@ -7,7 +7,7 @@ part '{{name.snakeCase()}}.freezed.dart';
 @freezed
 class {{name.pascalCase()}} extends Entity with _${{name.pascalCase()}} {
   const factory {{name.pascalCase()}}({
-   // TODO fields
+   // TODO: fields
   }) = _{{name.pascalCase()}};
 
   /// Returns an instance with random generated properties
