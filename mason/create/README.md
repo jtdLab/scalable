@@ -21,10 +21,6 @@ A few resources to get you started if this is your first brick template:
 // TODO which files here are needed and fix em
 pubspec.yaml
 pubspec.lock
-.gitignore
-windows/ (change comp_name)
-ios/
-android/ (change starter_project + comp)
 test/
 lib/ 
 .idea/ (add run configs for intellij)

@@ -1,6 +1,6 @@
-# starter_project
+# {{project_name}}
 
-A new Flutter project.
+{{description}}
 
 ## Getting Started
 
