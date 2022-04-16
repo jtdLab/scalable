@@ -17,3 +17,19 @@ A few resources to get you started if this is your first brick template:
 [2]: https://github.com/felangel/mason/tree/master/packages/mason_cli#readme
 [3]: https://verygood.ventures/blog/code-generation-with-mason
 [4]: https://youtu.be/G4PTjA6tpTU
+
+// TODO which files here are needed and fix em
+pubspec.yaml
+pubspec.lock
+.gitignore
+windows/ (change comp_name)
+ios/
+android/ (change starter_project + comp)
+test/
+lib/ 
+.idea/ (add run configs for intellij)
+
+
+// not sure but unlikly to add them into brick
+.metadata
+.packages
