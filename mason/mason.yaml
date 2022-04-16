@@ -1,5 +1,7 @@
 bricks:
   page:
-    path: ./page/
+    path: ./presentation/page/
   bloc:
-    path: ./bloc
+    path: ./application/bloc/
+  service:
+    path: ./domain/service/

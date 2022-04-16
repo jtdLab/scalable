@@ -1,1 +1,1 @@
-{"bricks":{"page":{"path":"./page/"},"bloc":{"path":"./bloc"}}}
+{"bricks":{"page":{"path":"./presentation/page/"},"bloc":{"path":"./application/bloc/"},"service":{"path":"./domain/service/"}}}
