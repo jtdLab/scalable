@@ -34,3 +34,33 @@ vars:
     description: A short project description
     default: A scalable App.
     prompt: What is the project description?
+  android:
+    type: boolean
+    description: The project supports the Android platform
+    default: true
+    prompt: Enable Android?
+  ios:
+    type: boolean
+    description: The project supports the iOS platform
+    default: true
+    prompt: Enable iOS?
+  web:
+    type: boolean
+    description: The project supports the Web platform
+    default: false
+    prompt: Enable Web?
+  linux:
+    type: boolean
+    description: The project supports the Linux platform
+    default: false
+    prompt: Enable Linux?
+  macos:
+    type: boolean
+    description: The project supports the macOS platform
+    default: false
+    prompt: Enable macOS?
+  windows:
+    type: boolean
+    description: The project supports the Windows platform
+    default: false
+    prompt: Enable Windows?
