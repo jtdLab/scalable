@@ -27,7 +27,7 @@ vars:
   org_name:
     type: string
     description: The organization name
-    default: com.example.app
+    default: com.example
     prompt: What is the organization name?
   description:
     type: string
