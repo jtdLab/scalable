@@ -24,6 +24,7 @@ pubspec.lock (gen from pubspec)
 test/ (add files)
 lib/ (add files)
 .idea/ (add run configs for intellij)
+./android (make it runable)
 
 
 // not sure but unlikly to add them into brick
