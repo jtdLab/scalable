@@ -1,1 +1,0 @@
-{"bricks":{"page":{"path":"./presentation/page/"},"bloc":{"path":"./application/bloc/"},"service":{"path":"./domain/service/"},"entity":{"path":"./domain/entity/"},"flow":{"path":"./presentation/flow/"},"value_object":{"path":"./domain/value_object/"},"dto":{"path":"./infrastructure/dto/"},"create":{"path":"./create"}}}
