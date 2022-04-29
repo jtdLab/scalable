@@ -10,17 +10,14 @@ part of 'presentation.dart';
 abstract class Flow extends StatelessWidget with Providing, Listening {
   const Flow({Key? key}) : super(key: key);
 
-  /// Introduces a new navigation scope wrapped by bloc listeners.
-  ///
-  /// ***Do not override***.
   @nonVirtual
   @override
   Widget build(BuildContext context) {
-    if (listeners.isEmpty) {
+    if (listeners?.isEmpty ?? true) {
       return const AutoRouter();
     } else {
       return MultiBlocListener(
-        listeners: listeners,
+        listeners: listeners!,
         child: const AutoRouter(),
       );
     }
