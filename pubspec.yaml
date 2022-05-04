@@ -15,6 +15,7 @@ dependencies:
   kt_dart: ^0.10.0
   faker: ^2.0.0
   freezed_annotation: ^1.1.0
+  clock: ^1.1.0
 
   # PRESENTATION
   flutter:
@@ -22,6 +23,8 @@ dependencies:
   auto_route: ^3.2.4
   cupertino_icons: ^1.0.2
   flutter_bloc: ^8.0.1
+  macos_ui: ^0.12.4
+  fluent_ui: ^3.11.0
 
   # APPLICATION
   bloc: ^8.0.3
