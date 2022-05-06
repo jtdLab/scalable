@@ -13,11 +13,11 @@ abstract class Flow extends StatelessWidget with Providing, Listening {
   @nonVirtual
   @override
   Widget build(BuildContext context) {
-    if (listeners?.isEmpty ?? true) {
+    if (_listeners?.isEmpty ?? true) {
       return const AutoRouter();
     } else {
       return MultiBlocListener(
-        listeners: listeners!,
+        listeners: _listeners!,
         child: const AutoRouter(),
       );
     }
