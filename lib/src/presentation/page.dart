@@ -14,11 +14,11 @@ abstract class Page<V extends View> extends StatelessWidget
   @nonVirtual
   @override
   Widget build(BuildContext context) {
-    if (_listeners?.isEmpty ?? true) {
+    if (listeners?.isEmpty ?? true) {
       return view;
     } else {
       return MultiBlocListener(
-        listeners: _listeners!,
+        listeners: listeners!,
         child: view,
       );
     }
