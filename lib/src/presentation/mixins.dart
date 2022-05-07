@@ -10,13 +10,13 @@ mixin Providing on StatelessWidget implements AutoRouteWrapper {
   /// TODO doc
   @nonVirtual
   @override
-  Widget wrappedRoute(BuildContext context) {
+  Widget wrappedRoute(BuildContext context, {Widget? child}) {
     if (providers?.isEmpty ?? true) {
       return this;
     } else {
       return MultiBlocProvider(
         providers: providers!,
-        child: this,
+        child: child ?? this,
       );
     }
   }
