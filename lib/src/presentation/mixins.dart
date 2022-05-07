@@ -5,17 +5,17 @@ part of 'presentation.dart';
 // TODO doc
 mixin Providing on StatelessWidget implements AutoRouteWrapper {
   /// The providers that get injected above this.
-  List<BlocProvider>? get providers => null;
+  List<BlocProvider> get providers => [];
 
   /// TODO doc
   @nonVirtual
   @override
   Widget wrappedRoute(BuildContext context, {Widget? child}) {
-    if (providers?.isEmpty ?? true) {
+    if (providers.isEmpty) {
       return this;
     } else {
       return MultiBlocProvider(
-        providers: providers!,
+        providers: providers,
         child: child ?? this,
       );
     }
@@ -25,5 +25,5 @@ mixin Providing on StatelessWidget implements AutoRouteWrapper {
 // TODO doc
 mixin Listening on StatelessWidget {
   /// The listeners that listen to blocs which are injected above this or in [providers].
-  List<BlocListener>? get listeners => null;
+  List<BlocListener> get listeners => [];
 }
