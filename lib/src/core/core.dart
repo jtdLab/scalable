@@ -5,4 +5,3 @@ export 'package:injectable/injectable.dart';
 export 'package:kt_dart/kt.dart';
 export 'package:faker/faker.dart';
 export 'package:freezed_annotation/freezed_annotation.dart' hide reverse;
-export 'package:clock/clock.dart';
