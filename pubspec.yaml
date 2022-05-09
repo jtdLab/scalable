@@ -24,11 +24,6 @@ dependencies:
     sdk: flutter
   auto_route: ^3.2.4
   flutter_bloc: ^8.0.1
-  # cupertino_icons: ^1.0.2
-  # macos_ui: ^0.12.4
-  # fluent_ui: ^3.11.0
-  # yaru: ^0.2.5
-  # yaru_icons: ^0.2.1
 
   # APPLICATION
   bloc: ^8.0.3
