@@ -3,7 +3,7 @@ description: A new Flutter package project.
 version: 0.0.1
 
 environment:
-  sdk: ">=2.16.2 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
@@ -14,7 +14,7 @@ dependencies:
   injectable: ^1.5.3
   kt_dart: ^0.10.0
   faker: ^2.0.0
-  freezed_annotation: ^1.1.0
+  freezed_annotation: ^2.0.3
   clock: ^1.1.0
 
   # PRESENTATION
@@ -22,7 +22,7 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  auto_route: ^3.2.4
+  auto_route: ^4.0.1
   flutter_bloc: ^8.0.1
 
   # APPLICATION
@@ -31,10 +31,10 @@ dependencies:
   # DOMAIN
 
   # INFRASTRUCTURE
-  json_annotation: ^4.4.0
+  json_annotation: ^4.5.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.1
   build_runner: ^2.1.10
