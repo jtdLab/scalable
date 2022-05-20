@@ -1,4 +1,5 @@
 import 'package:get_it/get_it.dart';
+import 'package:injectable/injectable.dart';
 
 export 'package:dartz/dartz.dart' show Either, Right, Left, right, left;
 export 'package:freezed_annotation/freezed_annotation.dart';
@@ -14,12 +15,6 @@ final getIt = GetIt.instance;
 /// Used to annotate dependencies which are
 /// registered under certain platforms
 class Platform {
-  /// name of the platform
-  final String name;
-
-  /// default constructor
-  const Platform(this.name);
-
   /// preset of common platform name 'android'
   static const android = 'android';
 
@@ -40,19 +35,19 @@ class Platform {
 }
 
 /// preset instance of common platform name
-const android = Platform(Platform.android);
+const android = Environment(Platform.android);
 
 /// preset instance of common platform name
-const ios = Platform(Platform.ios);
+const ios = Environment(Platform.ios);
 
 /// preset instance of common platform name
-const web = Platform(Platform.web);
+const web = Environment(Platform.web);
 
 /// preset instance of common platform name
-const linux = Platform(Platform.linux);
+const linux = Environment(Platform.linux);
 
 /// preset instance of common platform name
-const macos = Platform(Platform.macos);
+const macos = Environment(Platform.macos);
 
 /// preset instance of common platform name
-const windows = Platform(Platform.windows);
+const windows = Environment(Platform.windows);
