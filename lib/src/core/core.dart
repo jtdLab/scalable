@@ -10,3 +10,49 @@ export 'package:kt_dart/kt.dart';
 ///
 /// For more info see: https://pub.dev/packages/get_it
 final getIt = GetIt.instance;
+
+/// Used to annotate dependencies which are
+/// registered under certain platforms
+class Platform {
+  /// name of the platform
+  final String name;
+
+  /// default constructor
+  const Platform(this.name);
+
+  /// preset of common platform name 'android'
+  static const android = 'android';
+
+  /// preset of common platform name 'ios'
+  static const ios = 'ios';
+
+  /// preset of common platform name 'web'
+  static const web = 'web';
+
+  /// preset of common platform name 'linux'
+  static const linux = 'linux';
+
+  /// preset of common platform name 'macos'
+  static const macos = 'macos';
+
+  /// preset of common platform name 'windows'
+  static const windows = 'windows';
+}
+
+/// preset instance of common platform name
+const android = Platform(Platform.android);
+
+/// preset instance of common platform name
+const ios = Platform(Platform.ios);
+
+/// preset instance of common platform name
+const web = Platform(Platform.web);
+
+/// preset instance of common platform name
+const linux = Platform(Platform.linux);
+
+/// preset instance of common platform name
+const macos = Platform(Platform.macos);
+
+/// preset instance of common platform name
+const windows = Platform(Platform.windows);
