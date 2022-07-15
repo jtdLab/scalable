@@ -31,10 +31,10 @@ dependencies:
   # DOMAIN
 
   # INFRASTRUCTURE
-  json_annotation: ^4.5.0
+  json_annotation: ^4.6.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.1
-  build_runner: ^2.1.11
+  build_runner: ^2.2.0
